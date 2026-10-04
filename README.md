@@ -22,7 +22,7 @@ VisualErase 论文的独立静态项目主页。参考 TINA-Plus-Homepage 的暖
 
 配图来源：`fig-intro.pdf`、`fig-method.pdf`、`fig-visual.pdf`。PNG 分别导出为最长边 2200、2200、2400 像素。后续论文图更新时需同步导出，定性图保留原稿展示遮罩。无需 npm、构建工具、外部字体或 CDN。
 
-论文仍为匿名稿，主页保留 Anonymous Authors。论文与代码尚无已确认公开链接，当前以静态“待公开”状态展示，未添加虚构作者、出版信息或 BibTeX。正式公开时更新作者、资源链接与必要分享元数据。
+主页展示与 `../latex/arxiv.tex` 一致的六位作者及五个机构，上标关联作者与机构，不展示邮箱或通讯作者标识。作者区参考 TINA+ 的粗体姓名与较轻机构文字，居中排列，移动端自然换行，中文模式切换机构名称。ICLR 匿名论文与公开主页分别维护。论文与代码尚无已确认公开链接，当前以静态“待公开”状态展示，未添加出版信息或 BibTeX。
 
 ## 预览与发布
 
@@ -34,4 +34,4 @@ python3 -m http.server 8000
 
 再访问 `http://localhost:8000`。已按用户要求启动 8000 端口预览服务，尚未执行浏览器自动化验证。
 
-发布到 GitHub Pages 时，在该独立仓库的 Settings → Pages 中选择 GitHub Actions，之后推送 `main` 会触发部署。此目录属于 `_Draft/` 下的独立仓库，不纳入主科研仓库；本次未提交、推送或发布。
+发布到 GitHub Pages 时，在该独立仓库的 Settings → Pages 中选择 GitHub Actions，之后推送 `main` 会触发部署。此目录属于 `_Draft/` 下的独立仓库，不纳入主科研仓库。作者区更新按用户要求提交，推送由用户执行。
